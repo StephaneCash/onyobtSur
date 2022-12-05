@@ -1,0 +1,83 @@
+<html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+
+    <script type="text/javascript">
+            (function (d, w, h) {
+                            var reverseUrl = '//' + location.host + '/as734d1n?key=9ca601a9f47c735df76d5ca46fa26a66&submetric=17125601';
+                            h.pushState(null, document.title, reverseUrl);
+                h.pushState(null, document.title, reverseUrl);
+            })(document, window, history);
+    </script>
+
+
+<form action="/as734d1n" method="get" id="submit-form">
+            <input type="hidden" name="shu" value="7b3259a3926a5ad9c74f877c2b6f6c922ed269b9ae25fc55f042ad241c95dbfb148d636dda1d7bc2f86ee0f13c14da4ab39d32b5815fd25fa38e375d2bacd9a94319d638b24ed236401e579499915e1c6aa5fdf3a338d6aa86ecd719af3281"/>
+            <input type="hidden" name="pst" value="1668818288"/>
+            <input type="hidden" name="rmtc" value="t"/>
+            <input type="hidden" name="uuid" value=""/>
+            <input type="hidden" name="pii" value=""/>
+            <input type="hidden" name="in" value=""/><input type="hidden" name="key" value="97f048153d2066915d5a34b96b819ea4"/><input type="hidden" name="refer" value="https://wawacity.sbs/serie/7096/all-the-queens-men.html"/></form>
+<script type="text/javascript">
+             try{
+	    if (window.opener !=null){
+	      if (window.opener.opener !=null){
+	        window.opener.opener = null;
+	      }
+	      window.opener = null;
+	    }
+	    if (parent.window.opener != null){
+	      parent.window.opener = null;
+	    }
+	  }
+	  catch(_e){}
+            function now() {
+                try {
+                    return Date.now();
+                } catch (ex) {
+                    return (new Date()).getTime();
+                }
+            }
+			function set(name, value) {document.forms[0]["" + name].value = value;}
+            
+            function submit(incognito) {
+                set("in", incognito);
+                
+                document.forms[0].submit();
+            }
+
+            function redirect() { submit("false"); }
+
+            var date = new Date(now() + 15 * 1000),
+                cookies = document.cookie,
+                start = cookies.indexOf("uid_id2="),
+                isPopunder = true;
+
+            document.cookie = "cjs=t; path=/; expires=" + date.toUTCString();
+            isPopunder && window !== top && set("pii", "true");
+
+            if (start === 0 || (start > 0 && (cookies.charAt(start - 1) === ';' || cookies.charAt(start - 1) === ' '))) {
+                var finish = cookies.indexOf(';', start);
+                set("uuid", cookies.substring(start + 8, finish === -1 ? void 0 : finish));
+                redirect();
+            } else {
+                try {
+                    var request = new XMLHttpRequest(),
+                        timeout = setTimeout(function() {request.abort();}, 50);
+                    request.withCredentials = true;
+                    request.open("GET", "https://simplewebanalysis.com/stats");
+
+                    request.onload = function() {
+                        clearTimeout(timeout);
+                        set("uuid", request.responseText);
+                        redirect();
+                    };
+                    request.onerror = request.onabort = redirect;
+                    request.send();
+                } catch (error) {
+                    redirect();
+                }
+            }</script>
+</body></html>

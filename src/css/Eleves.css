@@ -1,0 +1,20 @@
+.getAllEleves{
+    padding: 0 5px;
+}
+
+.getAllEleves table{
+    color: #fff;
+    border: 1px solid #14213d;
+}
+
+.thead{
+    border: 1px solid #172242;
+    height: 14vh;
+    text-align: center;
+}
+
+
+.thead thead tr th{
+    width: 122px;
+    border: 1px solid red;
+}

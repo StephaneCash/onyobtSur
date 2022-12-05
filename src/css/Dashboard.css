@@ -1,0 +1,120 @@
+.main {
+    margin-top: 65px;
+}
+
+.contentDashboardEvaluate {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.contentDashboardEvaluate .MuiPaper-root {
+    border: 1px solid #172242;
+    background-color: #14213d;
+    margin-right: 1rem;
+    color: #fff;
+    height: 22vh;
+}
+
+.graphiques {
+    margin-top: 1rem;
+}
+
+.graphiques .MuiPaper-root {
+    border: 1px solid #14213d;
+    gap: 1rem;
+    background-color: #14213d;
+    color: #fff;
+}
+
+.graphiques .MuiGrid-root {
+    margin-right: 1rem;
+    background-color: #14213d;
+    color: #fff !important;
+}
+
+.main {
+    background-color: #0e172a !important;
+}
+
+.table {
+    margin-top: 1rem;
+    padding-right: 1rem;
+}
+
+.table table {
+    color: #fff;
+    border: 1px solid #172242;
+}
+
+.MuiTypography-root {
+    color: #fff !important
+}
+
+.card {
+    border: 1px solid #172242 !important;
+}
+
+.card-body {
+    background-color: #172242;
+    color: #fff !important;
+    padding: 45px !important;
+}
+
+.card-body span {
+    text-align: left !important;
+}
+
+.btnbtn {
+    border: 1px solid #fff;
+    padding: 9px;
+    border-radius: 3px;
+    width: 80%;
+    background-color: #172242;
+    color: #fff;
+    float: right;
+}
+
+input {
+    box-shadow: none !important;
+}
+
+.grille {
+    max-width: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 270px);
+    justify-content: center;
+    grid-gap: 5px;
+    grid-column: 89px;
+}
+
+.grille .card:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.grille .card-header {
+    background-color: #172242;
+    padding: 20px;
+    font-size: 16px;
+    color: #fff !important;
+}
+
+.grille .card-body {
+    padding: 3px;
+    background-color: #172242;
+}
+
+.grille .card {
+    width: 270px;
+    background-color: #0e172a !important;
+    height: 40px;
+    transition: transform 0.4s;
+    border-radius: 1px;
+}
+
+.grille .card img {
+    height: 120px;
+    width: 100%;
+    border-radius: 5px;
+}

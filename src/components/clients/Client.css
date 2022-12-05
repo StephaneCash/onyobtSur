@@ -1,0 +1,89 @@
+td {
+    color: whitesmoke !important;
+}
+
+.getAllClients {
+    padding: 0 5px;
+}
+
+.getAllClients table {
+    color: whitesmoke;
+    border: 1px solid #14213d;
+}
+
+.thead {
+    border: 1px solid #172242;
+    height: 14vh;
+    text-align: center;
+}
+
+.getAllClients .barComponentAddBtnClientAndBarRecherche {
+    background-color: #172242;
+    height: auto;
+    text-align: center;
+    line-height: 10vh !important;
+    padding: 12px;
+}
+
+.getAllClients .barComponentAddBtnClientAndBarRecherche .compomentContent {
+    color: whitesmoke;
+    height: auto !important;
+    line-height: 10vh !important;
+
+}
+
+.getAllClients .btnSerach {
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+}
+
+.getAllClients .btnAddClient {
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    float: right;
+}
+
+.getAllClients .btnAjout {
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    margin-top: 1rem;
+    margin-left: 0.7rem;
+    width: 20%;
+    transition: all 0.5s;
+}
+
+.getAllClients .addClient {
+    color: whitesmoke;
+    margin-top: 2rem;
+    background-color: #14213d;
+    padding: 2rem;
+    transition: all 0.5s;
+}
+
+.getAllClients .btnEditer {
+    color: whitesmoke;
+    margin-top: 2rem;
+    background-color: #14213d;
+    transition: all 0.5s;
+    border: 1px solid whitesmoke;
+}
+
+.getAllClients .form-control {
+    border: 0px solid whitesmoke !important;
+    box-shadow: none !important;
+    padding: 0.6rem;
+    background-color: silver;
+}
+
+.getAllClients .form-control:focus {
+    background-color: silver;
+}
+
+.getAllClients .btn:hover {
+    transform: translateY(-5px);
+    border: 1px solid whitesmoke;
+}
+
+.modal{
+    margin-top: 7rem;
+}
