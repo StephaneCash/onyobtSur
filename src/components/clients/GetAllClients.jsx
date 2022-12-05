@@ -53,7 +53,7 @@ function GetAllClients(props) {
 
             ) :
                 <tr>
-                    <td colSpan='7px' className='text-center' style={{ color: "#fff" }}>
+                    <td colSpan='10px' className='text-center' style={{ color: "#fff" }}>
                         <i className='fa fa-spinner fa-pulse fa-2x'></i> Chargement...
                     </td>
                 </tr>
